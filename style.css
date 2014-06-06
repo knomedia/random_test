@@ -1,0 +1,40 @@
+body {
+  background: #e6eefd;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+}
+
+#loader {
+  padding: 20px;
+}
+
+#loader span {
+  position: relative;
+  top: -10px;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 600px;
+  height: 500px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: #E7EDF8;
+}
+
+#yes img, #nope img {
+  display: block;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+button {
+  margin-bottom: 20px;
+}

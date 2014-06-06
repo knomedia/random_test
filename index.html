@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Will Jerkins Pass?</title>
+  <script src="jquery.js"></script>
+  <script src="index.js" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">
+</head>
+<body>
+  <div id="wrapper">
+    <h1>Will Jerkins Pass?</h1>
+    <p>Don't waste your time actually running specs in jerkins, click this button to get back a random pass / fail (it seems to be about as reliable today).
+    <div>
+      <button id='start'>Give it a whirl</button>
+    </div>
+    <div id="loader">
+      <img src='loader.gif' alt='loading' />
+      <span>Running tests (or at least making you feel like it).</span>
+    </div>
+    <div id="yes">
+      <img src='http://www.placecage.com/300/300' width='300' height='300' alt='failing test' />
+      Zen moment, your random test <span class='green'>PASSED!</span>
+    </div>
+    <div id="nope">
+      <img src='http://placecage.com/c/200/201' width='300' height='300' alt='failing test' />
+      Oh noes... Random test <span class='red'>FAILED!</span>
+    </div>
+  </div>
+</body>
+</html>
